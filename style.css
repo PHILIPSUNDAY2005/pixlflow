@@ -110,3 +110,44 @@ footer {
     padding: 1rem;
   }
 }
+<style>
+  /* Existing styles above here */
+
+  .real-estate-section {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .real-estate-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+
+  .listing-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+
+  .listing-card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .listing-card a {
+    display: inline-block;
+    margin-top: 10px;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+</style>
